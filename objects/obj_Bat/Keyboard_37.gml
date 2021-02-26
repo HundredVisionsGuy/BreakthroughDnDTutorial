@@ -11,8 +11,9 @@ if(x > xoffset + spd)
 	/// @DnDHash : 35167ED8
 	/// @DnDParent : 44680FC0
 	/// @DnDArgument : "expr" "-spd"
+	/// @DnDArgument : "expr_relative" "1"
 	/// @DnDArgument : "var" "x"
-	x = -spd;
+	x += -spd;
 }
 
 /// @DnDAction : YoYo Games.Common.Else
